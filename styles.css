@@ -1,17 +1,31 @@
 body {
         text-align: center;
-        font-family: "Space Grotesk", sans-serif;
+        font-family: "Happy Monkey", sans-serif;
         font-optical-sizing: auto;
-        font-weight: weight;
+        font-weight: bold;
         font-style: normal;
-        background: linear-gradient(#c8b6ff, #d100d1);
-        color: #fad2e1;
+    background: linear-gradient(135deg, #ffdfd5, #bbd0ff);
+    color: #4b4453; /* A soft, complementary dark for text */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
-
 h1, h2, h3, h4, p {
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #231942;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+#swap-location, #swap-date {
+    background: #ffdfd5;
+    color: #231942;
 }
 
 #bff-img {
@@ -21,14 +35,14 @@ h1, h2, h3, h4, p {
     margin-bottom: 10px;
 }
 
-#bday-age {
+#swap-location {
     background: #bbd0ff;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
 }
 
-#bday-date {
+#swap-date {
     margin: 0;
     background: #bbd0ff;
     padding: 5px 10px;
@@ -65,28 +79,37 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-happy:hover {
-    background-image: url("images/happy.webp");
+    background-image: url("images/closet.gif");
 }
 
 #gift-img-hot:hover {
-    background-image: url("images/dance.webp");
+    background-image: url("images/happyGirls.gif");
 }
 
 #gift-img-genius:hover {
-    background-image: url("images/hot.webp");
+    background-image: url("images/swapParty.gif");
     margin: auto;
 }
 
 #gift-img-badass:hover {
-    background-image: url("images/badass.webp");
+    background-image: url("images/merci.webp");
 }
 
 #gift-img-cheers {
-    height: 300;
+    height: 300px;
 }
 
 #gift-img-cheers:hover {
-    background-image: url("images/cheers.webp");
+    background-image: url("images/readyToParty.webp");
     
+}
+
+#gift-img-crown {
+    height: 300px;
+}
+
+#gift-img-crown:hover {
+    background-image: url("images/crown.webp");
+
 }
 
